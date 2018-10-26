@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="section__title">用户名：
+    <input name="username1" placeholder="请输入到这里" focus="true" bindchange="username"/>
+  </view>
+    <view class="section__title">密码：
+    <input name="password1" password="true" placeholder="请输入到这里" bindchange="password"/>
+  </view>
+   <view class='hello'>  <button form-type="submit" type="primary"> 登陆 </button></view>
+   <view class="form3"><button bindtap="change1"> 点此注册 </button></view>
+  <view class="form4">  <button bindtap="change2" type="primary">手机快捷登陆</button></view>
+  </form>

@@ -1,0 +1,15 @@
+<!--pages/kuaijie/kuaijie.wxml-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="form">
+    <view class="form1">
+    <view class="section__title">您的手机号码</view>
+    <input name="phonenumber1" placeholder="请输入到这里" bindchange="phonenumber"/>
+  </view>
+   <view class='hello'>  <button disabled="{{disabled1}}" name='click' form-type="submit" type="primary"> 提交 </button></view>
+   </view>
+  </form>
+  <form bindsubmit="formSubmit1" bindreset="formReset1">
+      <view class="section__title">验证码</view>
+    <input name="identifyingcode1" placeholder="请输入到这里" bindchange="identifyingcode"/>
+       <view class='hello'>  <button disabled="{{disabled2}}" name='click1' form-type="submit" type="primary"> 提交 </button></view>
+    </form>

@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/zhuce/zhuce",
+    "pages/kuaijie/kuaijie",
+    "pages/photos/photos"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "二维码管理系统",
+    "navigationBarTextStyle":"black",
+    "debug":true,
+    "enablePullDownRefresh":true
+  }
+}

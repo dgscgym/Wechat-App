@@ -1,0 +1,4 @@
+<view> 
+  <button bindtap="click">点我扫一扫</button>  
+  <view>{{show}}</view>  
+</view> 
