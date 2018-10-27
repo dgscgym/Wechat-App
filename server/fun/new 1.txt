@@ -1,0 +1,14 @@
+express -e +name  -> new project
+rpm -qa | grep mysql 查看是否有mysql
+
+
+2018-10-23T02:56:54.449840Z 5 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: E=p1;pq7z:pH
+
+mysql:
+
+启动：
+cd c:/mysql/bin
+mysqld --console
+
+cd c:/mysql/bin
+mysqladmin -uroot shutdown
