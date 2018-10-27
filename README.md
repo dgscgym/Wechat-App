@@ -17,8 +17,10 @@
 
 ## 参与人员：
 
-前端：@`Donggeshencanggongyuming`等
+前端：@`Donggeshencanggongyuming`,@'tjs'
 
-后端：@`Luluting`等
+后端：@`Luluting`
 
 服务器架设：@`老钱`
+
+需求分析及可行性研究： @`hrk`,@`zk`
